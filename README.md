@@ -18,6 +18,6 @@ As was touched in for the topic, this dataset is quite inclusive in its scope. T
 
 ## References
 
-Dataset retrieved from: http://www.sharkattackfile.net/index.htm
+Dataset retrieved with permission from: http://www.sharkattackfile.net/index.htm
 
 https://welovesharks.club/top-12-usa-beaches-with-the-highest-shark-attack-history/
