@@ -7,7 +7,6 @@
     <AutoCreateAndUpdateDSDPhoneLayouts />
     <_.fcp.MarkAnimation.true...MarkAnimation />
     <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
-    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
     <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
     <SetMembershipControl />
     <SheetIdentifierTracking />
@@ -30,174 +29,16 @@
             <connection class='textscan' directory='C:/Users/thoma/Desktop/Data301/Project/project-group33/data/processed' filename='Dataframe_processed.csv' password='' server='' />
           </named-connection>
         </named-connections>
-        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0n5p4ky0v3g5zu13fdbm611z1uto' name='Dataframe_processed.csv' table='[Dataframe_processed#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
-            <column datatype='integer' date-parse-format='yyyy' name='Year' ordinal='0' />
-            <column datatype='string' name='Type' ordinal='1' />
-            <column datatype='string' name='Country' ordinal='2' />
-            <column datatype='string' name='Area' ordinal='3' />
-            <column datatype='string' name='Activity' ordinal='4' />
-            <column datatype='string' name='Sex ' ordinal='5' />
-            <column datatype='boolean' name='Fatal' ordinal='6' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
-        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0n5p4ky0v3g5zu13fdbm611z1uto' name='Dataframe_processed.csv' table='[Dataframe_processed#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
-            <column datatype='integer' date-parse-format='yyyy' name='Year' ordinal='0' />
-            <column datatype='string' name='Type' ordinal='1' />
-            <column datatype='string' name='Country' ordinal='2' />
-            <column datatype='string' name='Area' ordinal='3' />
-            <column datatype='string' name='Activity' ordinal='4' />
-            <column datatype='string' name='Sex ' ordinal='5' />
-            <column datatype='boolean' name='Fatal' ordinal='6' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
-        <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[Dataframe_processed.csv]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
-              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
-              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
-              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
-              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
-              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Year</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[Year]</local-name>
-            <parent-name>[Dataframe_processed.csv]</parent-name>
-            <remote-alias>Year</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Type</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Type]</local-name>
-            <parent-name>[Dataframe_processed.csv]</parent-name>
-            <remote-alias>Type</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RGB' />
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Country</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Country]</local-name>
-            <parent-name>[Dataframe_processed.csv]</parent-name>
-            <remote-alias>Country</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RGB' />
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Area</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Area]</local-name>
-            <parent-name>[Dataframe_processed.csv]</parent-name>
-            <remote-alias>Area</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RGB' />
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Activity</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Activity]</local-name>
-            <parent-name>[Dataframe_processed.csv]</parent-name>
-            <remote-alias>Activity</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RGB' />
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Sex </remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Sex ]</local-name>
-            <parent-name>[Dataframe_processed.csv]</parent-name>
-            <remote-alias>Sex </remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RGB' />
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Fatal</remote-name>
-            <remote-type>11</remote-type>
-            <local-name>[Fatal]</local-name>
-            <parent-name>[Dataframe_processed.csv]</parent-name>
-            <remote-alias>Fatal</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>boolean</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-          </metadata-record>
-        </metadata-records>
       </connection>
       <aliases enabled='yes' />
-      <column datatype='string' name='[Area]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
-      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
-      <column caption='Sex' datatype='string' name='[Sex ]' role='dimension' type='nominal' />
-      <column datatype='integer' name='[Year]' role='dimension' type='ordinal' />
-      <_.fcp.ObjectModelTableType.true...column caption='Dataframe_processed.csv' datatype='table' name='[__tableau_internal_object_id__].[Dataframe_processed.csv_6E5FB38AFF4C438C8A603B514D6AE9B7]' role='measure' type='quantitative' />
       <drill-paths>
-        <drill-path name='Area, Country'>
-          <field>[Area]</field>
-          <field>[Country]</field>
-        </drill-path>
+        <drill-path name='Area, Country' />
       </drill-paths>
       <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
       </semantic-values>
-      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-        <objects>
-          <object caption='Dataframe_processed.csv' id='Dataframe_processed.csv_6E5FB38AFF4C438C8A603B514D6AE9B7'>
-            <properties context=''>
-              <relation connection='textscan.0n5p4ky0v3g5zu13fdbm611z1uto' name='Dataframe_processed.csv' table='[Dataframe_processed#csv]' type='table'>
-                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
-                  <column datatype='integer' date-parse-format='yyyy' name='Year' ordinal='0' />
-                  <column datatype='string' name='Type' ordinal='1' />
-                  <column datatype='string' name='Country' ordinal='2' />
-                  <column datatype='string' name='Area' ordinal='3' />
-                  <column datatype='string' name='Activity' ordinal='4' />
-                  <column datatype='string' name='Sex ' ordinal='5' />
-                  <column datatype='boolean' name='Fatal' ordinal='6' />
-                </columns>
-              </relation>
-            </properties>
-          </object>
-        </objects>
-      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph />
     </datasource>
   </datasources>
   <worksheets>
@@ -219,20 +60,20 @@
         <rows />
         <cols />
       </table>
-      <simple-id uuid='{FFD3529C-D239-4991-B7C6-5AF543731D7B}' />
+      <simple-id uuid='{6D24EF2D-1964-4F1B-A7B1-B83E0A642C30}' />
     </worksheet>
   </worksheets>
   <dashboards>
     <dashboard name='Dashboard 1'>
       <style />
-      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <size sizing-mode='automatic' />
       <zones />
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='10' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='9' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+            <zone h='100000' id='16' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98142' id='15' param='vert' type-v2='layout-flow' w='99034' x='483' y='929' />
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -268,7 +109,7 @@
           </strip>
         </edge>
       </cards>
-      <simple-id uuid='{82F75F91-A566-418C-8C39-EC75AFF348A7}' />
+      <simple-id uuid='{493B07D7-6E3D-401A-A46A-65B402815AE1}' />
     </window>
     <window class='dashboard' name='Dashboard 1'>
       <viewpoints />
