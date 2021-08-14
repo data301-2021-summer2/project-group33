@@ -1,2 +1,2 @@
 # Analysis
-## This folder contains the Jupyter Notebook draft and finalized files.
+## This folder contains the scripts folder as well as the ThomasDietrich folder containing all completed milestones.
