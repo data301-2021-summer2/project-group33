@@ -20,4 +20,7 @@ As was touched in for the topic, this dataset is quite inclusive in its scope. T
 
 Dataset retrieved with permission from: http://www.sharkattackfile.net/index.htm
 
+Other references include:
 https://welovesharks.club/top-12-usa-beaches-with-the-highest-shark-attack-history/
+https://www.thesun.co.uk/tech/2588074/bull-sharks-great-white-sharks-kill-dangerous-sharks/#:~:text=The%20great%20white%20is%20the,blacktip%20shark%20with%2029%20attacks.
+https://images.theconversation.com/files/43861/original/6gqj734n-1394723838.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip
